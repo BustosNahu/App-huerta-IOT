@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "852955116804",
+    "firebase_url": "https://greenpoint-2962c-default-rtdb.firebaseio.com",
+    "project_id": "greenpoint-2962c",
+    "storage_bucket": "greenpoint-2962c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:852955116804:android:8d54eadb43cfa5d3008c51",
+        "android_client_info": {
+          "package_name": "com.example.greenpoint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "852955116804-rn6k3kepvpjsigklbndan6ald53ntmc5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9gz1lflG8e60swnYD4RMseaOKKAqL16E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "852955116804-rn6k3kepvpjsigklbndan6ald53ntmc5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

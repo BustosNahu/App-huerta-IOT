@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_account"
+            android:title="@string/account"
+            android:icon="@drawable/account_white"
+            />
+
+        <item
+            android:title="Showing Calendar"
+            android:id="@+id/nav_showing_calendar"
+            android:icon="@drawable/calendary_white"
+            />
+        <item
+            android:title="Information"
+            android:id="@+id/information"
+            android:icon="@android:drawable/ic_dialog_info"
+            />
+
+    </group>
+
+    <item android:title="Another opcions">
+        <menu>
+            <item
+                android:title="@string/log_out"
+                android:id="@+id/nav_log_out"
+                android:icon="@drawable/logout_white"
+                />
+        </menu>
+    </item>
+
+
+</menu>

@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">GreenTech</string>
+    <string name="hintMail">Email</string>
+    <string name="hintPassword">Password</string>
+    <string name="color">red</string>
+    <string name="login">Login</string>
+    <string name="end_icon_password">icon</string>
+    <string name="Registrate">Sing in</string>
+    <string name="olvide_contraseña">Forgot my password</string>
+    <string name="title_activity_menu">Menu_activity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="ContentDescription">fondo_de_pantalla</string>
+    <string name="bt_desing">Desing</string>
+    <string name="bt_smart">Smart</string>
+    <string name="text_user">User</string>
+    <string name="bt_create_account">Create account</string>
+
+    //string de bt_regustrate
+    <string name="invalid_mail">Invalid mail</string>
+    <string name="invalid_password">password need 6 or more digits</string>
+    <string name="title_activity_menuprincipal_desplegable">Menuprincipal_desplegable</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_new_menuprincipal">New_menuprincipal</string>
+    <string name="account">Account</string>
+    <string name="sowing_calendar">sowing calendar</string>
+    <string name="information">Information</string>
+    <string name="log_out">Log out</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="greentech">GreenTech</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="account_fragment">Account Fragment</string>
+    <string name="showing_calendar">showing calendar</string>
+    <string name="_desing">Sector 1</string>
+    <string name="sector_1_desing">Sector 1</string>
+    <string name="sector_2_desing">Sector_2</string>
+    <string name="sector_3_desing">Sector 3</string>
+    <string name="sector_4_desing">Sector 4</string>
+    <string name="designer_tx">Designer</string>
+    <string name="smarter_tx">Smarter</string>
+    <string name="tx_info_smart">All of your crops will be controled by our GreenTech inteligence.</string>
+    <string name="tx_info_desing">You could take the control of all of your crops.</string>
+    <string name="greentech_font_tx">GreenTech</string>
+
+
+</resources>

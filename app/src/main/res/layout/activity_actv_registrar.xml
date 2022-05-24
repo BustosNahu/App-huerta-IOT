@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_degradado"
+    tools:context=".Actv_registrar">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/registrar_email_adress"
+        android:layout_width="357dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="236dp"
+        android:layout_marginEnd="8dp"
+        android:hint="@string/hintMail"
+        android:paddingStart="10dp"
+        android:paddingEnd="50dp"
+        app:counterEnabled="true"
+        app:endIconMode="clear_text"
+        app:helperText="Required"
+        app:helperTextTextColor="@color/red"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/registrar_email_adress_et"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="text" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/registrar_password"
+        android:layout_width="357dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="8dp"
+        android:hint="@string/hintPassword"
+        android:paddingStart="10dp"
+        android:paddingEnd="50dp"
+        app:endIconMode="password_toggle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registrar_email_adress">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/registrar_password_et"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textPassword" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ImageView
+        android:id="@+id/icon_person"
+        android:layout_width="173dp"
+        android:layout_height="116dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_person_24" />
+
+    <Button
+        android:id="@+id/bt_create_account"
+        style="@android:style/Widget.Holo.Button.Toggle"
+        android:layout_width="345dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="88dp"
+        android:background="@drawable/custom_button"
+        android:paddingStart="50dp"
+        android:paddingEnd="50dp"
+        android:text="@string/bt_create_account"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:iconTint="#F44336"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registrar_password"
+        android:fontFamily="@font/font_explications"
+        android:gravity="center"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
